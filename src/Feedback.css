@@ -1,0 +1,38 @@
+.Feedback{
+    margin-top: 100px;
+}
+
+p{
+    font-weight:bold ;
+}
+
+.container {
+    border: 2px solid #ccc;
+    background-color: rgba(253, 0, 211, 0.89);
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0
+  }
+  
+  .img_feedback{
+    width:90px
+  }
+
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .container img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  .container span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  
+  

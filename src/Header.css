@@ -1,0 +1,51 @@
+.logo{
+    height: 220px;
+    margin-top: -30px;
+    margin-bottom: -67px;
+    margin-left: 61px;
+
+}
+
+.middle{
+    position: absolute;
+    margin-top: -50px;
+    transform: translate(-50%,-50%);
+    margin-left: 1470px;
+  }
+  .btn{
+    position: relative;
+    display: block;
+    color: black;
+    font-size: 14px;
+    font-family: "montserrat";
+    text-decoration: none;
+    margin: 30px 0;
+    border: 2px solid #ff7675;
+    padding: 14px 47px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease;
+    margin-top: 50px;
+    margin-left: 150px;
+
+  }
+  .btn::before{
+    background: #ff7675;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    transition: all 0.6s ease;
+  }
+  
+  .btn1::before{
+    width: 0%;
+    height: 100%;
+  }
+  
+  .btn1:hover::before{
+    width: 100%;
+  }
+  

@@ -1,0 +1,67 @@
+.Questionnaire{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Rubik', sans-serif;
+
+    position: relative;
+    overflow: hidden;
+    font-size: 16px;
+    
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+
+.Questionnaire, Questionnaire:after,Questionnaire::before{
+     box-sizing: border-box; 
+}
+
+.card{
+  width: 25rem;
+  height: auto;
+  background: #fff;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  overflow: hidden;
+  position: relative;
+  border: 2mm ridge rgba(245, 62, 101, 0.6);
+  
+}
+
+.card_imgholder{
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.card_imgholder img{
+  width: 100%;
+  height: auto;
+  max-height: 15rem;
+  object-fit: cover;
+  border-radius: 1.5rem;
+}
+
+.blog_title{
+  color: #22215B;
+  padding: 1rem 0;
+  font-size: 1.5rem;
+}
+
+.description{
+  padding: 1rem 0;
+  color: #22215B80;
+  font-size: 1rem;
+}
+
+.blog_time{
+  font-size: .8rem;
+  color: #22215B;
+}
+

@@ -1,0 +1,57 @@
+
+a{
+  text-decoration: none;
+  color:black;
+}
+
+.container_1{
+  height: 400px;
+  width: 1300px;
+  margin-top: 60px;
+  margin-left: 133px;
+  
+}
+
+section {
+  max-width: 1300px;
+
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+.column {
+  float: left;
+  width: 240px;
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* .Main{
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+} */
+
+.img{
+  height: 210px;
+  width: 150px;
+}
