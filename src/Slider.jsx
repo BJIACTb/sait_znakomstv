@@ -1,6 +1,27 @@
 import './Slider.css';
 
 
+const tags = [
+  {
+    id: '1',
+    name: 'Апроксий',
+    age: '5 лет',
+    description: 'Отличный сайт, нашел ту которую искал всю жизнь. Всем любви.',
+  },
+  {
+    id: '1',
+    name: 'Арсюша',
+    age: '7 лет',
+    description: 'Благодаря сайту, нашла пару с который общаюсь до сих пор. Спасибо администрации сайта.',
+  },
+  {
+    
+    name: 'Котофейкин',
+    age: '10 лет',
+    description: 'Не смог на данный момент найти пару, но я не отчаиваюсь. Всем удачи!',
+  },
+
+]
 
 
 const Slider=(props) => {
@@ -13,6 +34,11 @@ const Slider=(props) => {
 <p>{props.message1}</p>
 </div>
 
+{/* 
+<Slider name={tags.person[1].name} quote={tags.person[1].quote}  img={tags.person[1].img}  />
+        <Slider name={tags.person[1].name} quote={tags.person[1].quote}  img={tags.person[1].img}  />
+        <Slider /> 
+        <Slider name={tags.person[0].name} quote={tags.person[0].quote}  img={tags.person[0].img}  /> */}
 
 <div className='disp'>
 <div class="wrapper relative">
